@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <header> 
+        <p class="logo">Kebudayaan Kita</p> 
+        <ul class="navlist">
+            <li><a href="./Home.html">Home</a></li>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./Contact.html">Contact</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section class="budaya">
+        <div class="budaya-text">
+            <h1>Budaya Kita</h1>
+            <p>Memperkenalkan kebudayaan kita <br> dengan website edukatif untuk arsip kita akan budaya</p>
+            <a href="#"><i class="ri-play-fill"></i>Tonton Sekarang</a>
+        </div>
+        <div class="budaya-img">
+            <img src="./gambbar.jpg" alt="Gambar Budaya">
+        </div>
+    </section>
+    <script src="js/scropt.js">
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('transparent');
+            } else {
+                header.classList.remove('transparent');
+            }
+        });
+        
+    </script>
+</body>
+</html>
