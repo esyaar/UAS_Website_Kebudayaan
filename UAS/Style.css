@@ -20,6 +20,22 @@ header {
     padding: 20px 5%; 
     background: fixed, #015354;
 }
+footer{
+    position: static;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%; 
+    background: fixed, #015354;
+    color: #ffd700;
+}
+footer a{
+    color: beige;
+}
 header.transparent {
     background: rgba(0, 79, 80, 0.8);
 }
