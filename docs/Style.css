@@ -202,19 +202,19 @@ dl,dt,dd{
     box-shadow: 4px 7px 7px 0px #000000;
     cursor: pointer;
     transition: transform 500ms, box-shadow 500ms;
-    overflow: hidden; /* Menjaga gambar tetap dalam batas .daerah */
+    overflow: hidden; 
 }
 
 .daerah img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Memastikan gambar menutupi seluruh area .daerah */
+    object-fit: cover;
     transition: filter 500ms, transform 500ms;
 }
 
 .daerah:hover {
-    transform: scale(1.05); /* Membesarkan kartu daerah saat di-hover */
-    box-shadow: 6px 10px 15px 0px #000000; /* Menambah bayangan saat di-hover */
+    transform: scale(1.05); 
+    box-shadow: 6px 10px 15px 0px #000000; 
 }
 
 .daerah img:hover {
@@ -255,7 +255,7 @@ input[type="text"], select, textarea {
 
 input[type="checkbox"], input[type="radio"] {
     margin-right: 10px;
-    vertical-align: middle; /* Aligns checkbox/radio button with text */
+    vertical-align: middle; 
 }
 
 fieldset {
@@ -280,7 +280,7 @@ legend {
     display: flex;
     align-items: center;
 
-    margin-bottom: 10px; /* Jarak bawah antar baris */
+    margin-bottom: 10px; 
 }
 
 textarea {
@@ -311,7 +311,7 @@ input[type="submit"] {
     border: none;
     font-size: 16px; 
     margin-top: 10px; 
-    width: 100%; /* Sesuaikan panjang tombol */
+    width: 100%; 
 }
 
 input[type="submit"]:hover {
